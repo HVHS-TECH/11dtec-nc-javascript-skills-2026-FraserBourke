@@ -10,12 +10,12 @@ console.log("Auzio is my king")
 let Username = "Fraser";
 let year = 2026;
 let age = "15";
-let money = 50;
+let money = 20;
 let birthYear;
 let oldAge;
 oldAge = age + 10;
 birthYear = year - age
-
+halfMoney = money / 2
 
 /************************ 
 Main code
