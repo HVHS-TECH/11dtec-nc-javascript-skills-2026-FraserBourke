@@ -16,7 +16,7 @@ let money = 50;
 /************************ 
 Main code
 ************************/
-console.log("Hi "+ Username + " as of " + year + " you are " + age + " years old. You have " + money + " dollars ")
+console.log("Hi "+ Username + " as of " + year + " you are " + age + " years old. You have " + money + " dollars ");
 
 /************************ 
 Functions
