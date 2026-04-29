@@ -1,8 +1,7 @@
 /* Paste your code from task 2 here */
 /* Paste your code from task 1 here */
 /****************************
-This is a block comment.
-Put your header comment here!
+Name of task: Maths
 ****************************/
 console.log("Running t01_introduction.js")
 console.log("Auzio is my king")
