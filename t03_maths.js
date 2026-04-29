@@ -23,7 +23,7 @@ Main code
 console.log("Hi "+ Username + " as of " + year + " you are " + age + " years old. You have " + money + " dollars ");
 console.log("You were born in " + birthYear)
 console.log("In 10 years you will be " + oldAge + " years old ")
-cpnsole/log("you have " + money + " dollars ")
+console.log("you have " + money + " dollars ")
 console.log("You spend half of your money, now you have " + halfMoney)
 console.log(" Then you get $3, now you have ")
 
