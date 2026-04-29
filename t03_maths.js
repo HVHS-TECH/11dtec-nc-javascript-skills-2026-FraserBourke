@@ -23,6 +23,7 @@ Main code
 console.log("Hi "+ Username + " as of " + year + " you are " + age + " years old. You have " + money + " dollars ");
 console.log("You were bron in " + birthYear)
 console.log("In 10 years you will be " + oldAge + " years old ")
+console.log("You spend half of your money, now you have ")
 
 /************************ 
 Functions
