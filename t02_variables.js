@@ -7,7 +7,7 @@ console.log("Running t01_introduction.js")
 console.log("Auzio is my king")
 
 //variables
-let username = "Fraser"
+letUsername = "Fraser"
 let year = 2026;
 let age = "15";
 let money = 50;
@@ -16,7 +16,7 @@ let money = 50;
 /************************ 
 Main code
 ************************/
-
+console.log("Hi "+ Username + " as of")
 
 /************************ 
 Functions
