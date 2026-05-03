@@ -4,8 +4,8 @@
 /****************************
 Name of task: Javascript and HTML
 ****************************/
-console.log("Running t01_introduction.js")
-console.log("Auzio is my king")
+console.log("Running t05_introduction.js")
+
 
 //variables
 let Username = "Fraser";
@@ -17,18 +17,18 @@ let oldAge;
 oldAge = age + 10;
 birthYear = year - age;
 halfMoney = money / 2;
-
+const OUTPUT = document .getElementById("JavaScriptOutput");
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 /************************ 
 Main code
 ************************/
-const OUTPUT = document .getElementById("JavaScriptOutput");
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-console.log("Hi "+ Username + " as of " + year + " you are " + age + " years old. You have " + money + " dollars ");
-console.log("You were born in " + birthYear)
-console.log("In 10 years you will be " + oldAge + " years old ")
-console.log("you have " + money + " dollars ")
-console.log("You spend half of your money, now you have " + halfMoney)
-console.log(" Then you get $3, now you have " + (halfMoney + 3) + " dollars ")
+
+console.log("<p>Hi "+ Username + " as of " + year + " you are " + age + " years old. ");
+console.log("<p>You were born in " + birthYear)
+console.log("<p>In 10 years you will be " + oldAge + " years old ")
+console.log("<p>you have " + money + " dollars ")
+console.log("<p>You spend half of your money, now you have " + halfMoney)
+console.log(" <p>Then you get $3, now you have " + (halfMoney + 3) + " dollars ")
 
 /************************ 
 Functions
