@@ -17,7 +17,7 @@ let oldAge;
 oldAge = age + 10;
 birthYear = year - age;
 halfMoney = money / 2;
-const OUTPUT = document .getElementById("JavaScriptOutput");
+const OUTPUT = document .getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 /************************ 
 Main code
