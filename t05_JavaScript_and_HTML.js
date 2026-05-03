@@ -2,7 +2,7 @@
 /* Paste your code from task 2 here */
 /* Paste your code from task 1 here */
 /****************************
-Name of task: Maths
+Name of task: Javascript and HTML
 ****************************/
 console.log("Running t01_introduction.js")
 console.log("Auzio is my king")
