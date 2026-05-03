@@ -15,8 +15,8 @@ let money = 20;
 let birthYear;
 let oldAge;
 oldAge = age + 10;
-birthYear = year - age
-halfMoney = money / 2
+birthYear = year - age;
+halfMoney = money / 2;
 
 /************************ 
 Main code
