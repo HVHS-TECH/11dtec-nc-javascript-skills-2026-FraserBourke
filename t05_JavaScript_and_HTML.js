@@ -27,7 +27,7 @@ console.log("<p>Hi "+ Username + " as of " + year + " you are " + age + " years 
 console.log("<p>You were born in " + birthYear)
 console.log("<p>In 10 years you will be " + oldAge + " years old </p>")
 console.log("<p>you have " + money + " dollars </p>")
-console.log("<p>You spend half of your money, now you have " + halfMoney)
+console.log("<p>You spend half of your money, now you have " + halfMoney + " dollars</p>")
 console.log(" <p>Then you get $3, now you have " + (halfMoney + 3) + " dollars </p>")
 
 /************************ 
