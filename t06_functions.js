@@ -34,8 +34,8 @@ OUTPUT.innerHTML += (" <p>Then you get $3, now you have " + (halfMoney + 3) + " 
 Functions
 ************************/
 function writeLine(){
+OUTPUT.innerHTML += "<p>Less code matters</p>";
 
-    
 }
 // This is a single line comment
 
