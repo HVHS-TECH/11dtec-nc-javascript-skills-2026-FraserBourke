@@ -14,7 +14,7 @@ let age = "15";
 let money = 20;
 let birthYear;
 let oldAge;
-let name = Fraser
+let name = "Fraser";
 
 oldAge = age + 10;
 birthYear = year - age;
