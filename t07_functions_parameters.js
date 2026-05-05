@@ -14,6 +14,8 @@ let age = "15";
 let money = 20;
 let birthYear;
 let oldAge;
+let name = Fraser
+
 oldAge = age + 10;
 birthYear = year - age;
 halfMoney = money / 2;
@@ -43,7 +45,8 @@ Welcome();
 function displayWelcome(_name, _age){
 OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
 OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
-
 }
+
+displayWelcome();
 // This is a single line comment
 
