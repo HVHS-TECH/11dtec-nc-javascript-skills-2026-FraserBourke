@@ -47,6 +47,6 @@ OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
 OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
 }
 
-displayWelcome();
+
 // This is a single line comment
 
