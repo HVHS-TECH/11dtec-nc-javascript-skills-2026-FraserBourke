@@ -39,5 +39,11 @@ OUTPUT.innerHTML += "<p>Welcome</p>";
 }
 
 Welcome();
+
+function displayWelcome(_name, _age){
+OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
+OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
+
+}
 // This is a single line comment
 
