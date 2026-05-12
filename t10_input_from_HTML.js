@@ -24,6 +24,7 @@ OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 Main code
 ************************/
 
+
 OUTPUT.innerHTML += ("<p>Hi "+ Username + " as of " + year + " you are " + age + " years old.</p>");
 OUTPUT.innerHTML += ("<p>You were born in " + birthYear)
 OUTPUT.innerHTML += ("<p>In 10 years you will be " + oldAge + " years old </p>")
