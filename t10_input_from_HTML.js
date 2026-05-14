@@ -35,6 +35,13 @@ OUTPUT.innerHTML += (" <p>Then you get $3, now you have " + (halfMoney + 3) + " 
 /************************ 
 Functions
 ************************/
+
+function getFormInput(){
+}
+const NAME_FIELD = document.getElementById("nameField");
+let userName = NAME_FIELD.value;
+OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+
 function start() {
 spaceForJavaScriptOutput.innerHTML
 spaceForJavaScriptOutput.innerHTML
@@ -50,12 +57,8 @@ OUTPUT.innerHTML += "<p>Welcome</p>";
 }
 Welcome();
 
-function displayWelcome(_name, _age){
-OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
-OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
-}
 
-displayWelcome("Ms Alice", 16);
-displayWelcome("Mr Bob", 67);
+
+
 // This is a single line comment
 
