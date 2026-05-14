@@ -25,6 +25,7 @@ Main code
 ************************/
 
 const NAME_FIELD = document.getElementById("nameField");
+let userName = NAME_FIELD.value;
 
 OUTPUT.innerHTML += ("<p>Hi "+ Username + " as of " + year + " you are " + age + " years old.</p>");
 OUTPUT.innerHTML += ("<p>You were born in " + birthYear)
