@@ -26,6 +26,10 @@ OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 Main code
 ************************/
 
+if (age < 70){
+    console.log("Your too young")
+}
+
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
 
