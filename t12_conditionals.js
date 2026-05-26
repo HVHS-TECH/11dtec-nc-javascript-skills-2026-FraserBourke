@@ -64,7 +64,7 @@ OUTPUT.innerHTML += "<p>Welcome</p>";
 }
 }
 Welcome();
-
+start();
 
 
 
