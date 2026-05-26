@@ -11,7 +11,7 @@ function start() {
 //variables
 let Username = "Fraser";
 let year = 2026;
-let age = "15";
+let age = 15;
 let money = 20;
 let birthYear;
 let oldAge;
