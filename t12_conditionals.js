@@ -27,9 +27,8 @@ Main code
 ************************/
 
 if (age < 70){
-    OUTPUT.innerHTML += ("Your too young")
+    OUTPUT.innerHTML += "<p>You're too young</p>";
 }
-
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
 
