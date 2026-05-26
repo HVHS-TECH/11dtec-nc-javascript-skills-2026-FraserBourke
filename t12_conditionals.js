@@ -27,7 +27,7 @@ Main code
 ************************/
 
 if (age < 70){
-    console.log("Your too young")
+    OUTPUT.innerHTML += ("Your too young")
 }
 
 const NAME_FIELD = document.getElementById("nameField");
