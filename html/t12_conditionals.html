@@ -21,7 +21,7 @@
             // Variables
             let Username = "Fraser";
             let year = 2026;
-            let age = 65;
+            let age = 60;
             let money = 20;
 
             let birthYear;
@@ -41,7 +41,9 @@
                 OUTPUT.innerHTML += "<p>You're too young</p>";
             }
 
-        
+         if (age > 70) {
+                OUTPUT.innerHTML += "<p>You're an unc</p>";
+            }
         }
 
         function Welcome() {
