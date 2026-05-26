@@ -2,37 +2,57 @@
 <html lang="en">
 
 <head>
-  <title>T12-conditionals</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- stylesheets *******************************************-->
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="icon" type="image/png" href="../assets/dtec_favicon.png">
+    <meta charset="UTF-8">
+    <title>JavaScript Introduction</title>
 </head>
 
-<!--*************************************************************
-  BODY
-**************************************************************-->
-
 <body>
-  <h1>T12-conditionals</h1>
-  <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
-  <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
+    <div id="spaceForJavaScriptOutput"></div>
 
-  <div id="spaceForJavaScriptOutput">
+    <script>
 
-    The output of your script will go here.
+        console.log("Running t05_introduction.js");
 
-  </div>
+        const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
+        function start() {
 
-  <script src="../t12_conditionals.js"></script>
+            // Variables
+            let Username = "Fraser";
+            let year = 2026;
+            let age = 65;
+            let money = 20;
+
+            let birthYear;
+            let oldAge;
+            let halfMoney;
+
+            // Calculations
+            oldAge = age + 10;
+            birthYear = year - age;
+            halfMoney = money / 2;
+
+            // Heading
+            OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+
+            // If statement
+            if (age < 70) {
+                OUTPUT.innerHTML += "<p>You're too young</p>";
+            }
+
+        
+        }
+
+        function Welcome() {
+            OUTPUT.innerHTML += "<p>Welcome</p>";
+        }
+
+      
+        start();
+
+    </script>
 
 </body>
 
 </html>
-<!--*************************************************************
-  END OF T12_CONDITIONALS.HTML
-**************************************************************-->
