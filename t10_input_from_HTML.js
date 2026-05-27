@@ -4,7 +4,7 @@ Name of task: input from HTML
 ****************************/
 console.log("Running t05_introduction.js")
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-function start() {
+
 
 //variables
 let Username = "Fraser";
