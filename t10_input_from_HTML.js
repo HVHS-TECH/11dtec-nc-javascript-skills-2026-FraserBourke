@@ -53,7 +53,7 @@ spaceForJavaScriptOutput.innerHTML
 
 
 function Welcome(){
-OUTPUT.innerHTML += "<p>Welcome</p>";
+OUTPUT.innerHTML += "<h1>Welcome to the shop</h1>";
 
 }
 }
