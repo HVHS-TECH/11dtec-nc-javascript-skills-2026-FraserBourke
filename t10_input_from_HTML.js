@@ -50,7 +50,7 @@ OUTPUT.innerHTML += "<h1>Welcome to the shop</h1>";
 /************************ 
 Main code
 ************************/
-OUTPUT.innerHTML = "<p>Hi "+ username +",<p>"
+OUTPUT.innerHTML = "<p>Hi "+ username +",<p>";
 OUTPUT.innerHTML += ("<p>Hi "+ Username + " as of " + year + " you are " + age + " years old.</p>");
 OUTPUT.innerHTML += ("<p>You were born in " + birthYear)
 OUTPUT.innerHTML += ("<p>In 10 years you will be " + oldAge + " years old </p>")
