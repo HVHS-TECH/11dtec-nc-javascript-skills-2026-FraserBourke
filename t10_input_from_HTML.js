@@ -2,68 +2,54 @@
 /****************************
 Name of task: input from HTML
 ****************************/
-console.log("Running t05_introduction.js")
+console.log("Running t05_introduction.js");
+
+
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
+/************************ 
+Variables
+************************/
 
-//variables
-let Username = "Fraser";
+let username = "";     
 let year = 2026;
-let age = "15";
+let age = 15;
 let money = 20;
+
 let birthYear;
 let oldAge;
-let name = "Fraser";
-let currentYear = 2026;
-oldAge = age + 10;
-birthYear = year - age;
-halfMoney = money / 2;
-const OUTPUT = document .getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-
-
-const NAME_FIELD = document.getElementById("nameField");
-let userName = NAME_FIELD.value;
-
+let halfMoney;
 
 /************************ 
-Functions
+ function
 ************************/
 
-function getFormInput(){
+function getFormInput() {
+    const NAME_FIELD = document.getElementById("nameField");
 
-const NAME_FIELD = document.getElementById("nameField");
-userName = NAME_FIELD.value;
+   
+    username = NAME_FIELD.value;
 
-}
-function start() {
-spaceForJavaScriptOutput.innerHTML
-spaceForJavaScriptOutput.innerHTML
-answer = currentYear - userAge;
-spaceForJavaScriptOutput.innerHTML
+  
+    Welcome();
 }
 
 
-function Welcome(){
-OUTPUT.innerHTML += "<h1>Welcome to the shop</h1>";
 
-/************************ 
-Main code
-************************/
-OUTPUT.innerHTML = "<p>Hi "+ username +",<p>";
-OUTPUT.innerHTML += "<p>Hi "+ Username + " as of " + year + " you are " + age + " years old.</p>";
-OUTPUT.innerHTML += "<p>You were born in " + birthYear +".</p>";
-OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + " years old </p>"
-OUTPUT.innerHTML += "<p>you have " + money + " dollars </p>"
-OUTPUT.innerHTML += "<p>You spend half of your money, now you have " + halfMoney + " dollars</p>"
-OUTPUT.innerHTML += " <p>Then you get $3, now you have " + (halfMoney + 3) + " dollars </p>"
+function Welcome() {
 
+   
+    oldAge = age + 10;
+    birthYear = year - age;
+    halfMoney = money / 2;
+
+    OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+
+    OUTPUT.innerHTML += "<p>Hi " + username + "</p>";
+    OUTPUT.innerHTML += "<p>Hi " + username + " as of " + year + " you are " + age + " years old.</p>";
+    OUTPUT.innerHTML += "<p>You were born in " + birthYear + ".</p>";
+    OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + " years old.</p>";
+    OUTPUT.innerHTML += "<p>You have $" + money + " dollars.</p>";
+    OUTPUT.innerHTML += "<p>You spend half your money, now you have $" + halfMoney + ".</p>";
+    OUTPUT.innerHTML += "<p>Then you get $3, now you have $" + (halfMoney + 3) + ".</p>";
 }
-
-Welcome();
-
-
-
-
-// This is a single line comment
-
