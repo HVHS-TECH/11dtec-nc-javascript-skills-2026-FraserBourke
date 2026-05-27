@@ -39,11 +39,11 @@ Functions
 ************************/
 
 function getFormInput(){
-}
-const NAME_FIELD = document.getElementById("nameField");
-let userName = NAME_FIELD.value;
-OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
 
+const NAME_FIELD = document.getElementById("nameField");
+userName = NAME_FIELD.value;
+
+}
 function start() {
 spaceForJavaScriptOutput.innerHTML
 spaceForJavaScriptOutput.innerHTML
