@@ -20,7 +20,49 @@
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
+<script>
+        console.log("Running t05_introduction.js");
 
+        const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
+        function start() {
+
+            // Variables
+            let Username = "Fraser";
+            let year = 2026;
+            let age = 60;
+            let money = 20;
+
+            let birthYear;
+            let oldAge;
+            let halfMoney;
+
+            // Calculations
+            oldAge = age + 10;
+            birthYear = year - age;
+            halfMoney = money / 2;
+
+            // Heading
+            OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+
+            // If statement
+            if (age < 70) {
+                OUTPUT.innerHTML += "<p>You're too young</p>";
+            }
+
+         if (age > 70) {
+                OUTPUT.innerHTML += "<p>You're an unc</p>";
+            }
+        }
+
+        function Welcome() {
+            OUTPUT.innerHTML += "<p>Welcome</p>";
+        }
+
+      
+        start();
+
+    </script>
   <div id="spaceForJavaScriptOutput">
 
     The output of your script will go here.
