@@ -19,6 +19,8 @@ let currentYear = 2026;
 
 oldAge = age + 10;
 
+const CHOOSE_FIELD = document.getElementById("CHOOSE_FILED");
+_choose_field = Number(CHOOSE_FIELD.value);
 
 birthYear = year - age;
 halfMoney = money / 2;
