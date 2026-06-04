@@ -16,6 +16,7 @@ let birthYear;
 let oldAge;
 let name = "Fraser";
 let currentYear = 2026;
+let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
 oldAge = age + 10;
 
 
@@ -41,7 +42,7 @@ OUTPUT.innerHTML += (" <p>Then you get $3, now you have " + (halfMoney + 3) + " 
 /************************ 
 Functions
 ************************/  
-let classArray = ["Alice", "Bob", "Kaia", "Olivia", "Aroha", "Josh"];
+
 
 let choice = CHOOSE_FIELD.value;
 
